@@ -10,6 +10,30 @@
     
 </head>
 <body class="bg-gray-50">
-    
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold gradient-text">Jessica Kiro</h1>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#accueil" class="nav-link text-gray-700 hover:text-purple-600">Accueil</a>
+                    <a href="#apropos" class="nav-link text-gray-700 hover:text-blue-600">À Propos</a>
+                    <a href="#competences" class="nav-link text-gray-700 hover:text-blue-600">Compétences</a>
+                    <a href="#projets" class="nav-link text-gray-700 hover:text-blue-600">Projets</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <button class="md:hidden" id="menu-btn">
+                    <i class="fas fa-bars text-2xl text-gray-700"></i>
+                </button>
+            </div>
+            <div class="hidden md:hidden mt-4" id="mobile-menu">
+                <a href="#accueil" class="block py-2 text-gray-700">Accueil</a>
+                <a href="#apropos" class="block py-2 text-gray-700">À Propos</a>
+                <a href="#competences" class="block py-2 text-gray-700">Compétences</a>
+                <a href="#projets" class="block py-2 text-gray-700">Projets</a>
+                <a href="#contact" class="block py-2 text-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
